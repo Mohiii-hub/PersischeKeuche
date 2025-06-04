@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beispiel Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="navbar"></div>
+    <h1>Wilkommen to the  Persian Kitchen</h1>
+    <p>Here you will see a picture of Iranian food. If you like the recipes,
+         click on the button.</p>
+    <br>    
+         <button onclick="alert('To make Zereshk Pulao, you must have Iranian rice, Iranian Barberry, Iranian pistachios, and Iranian saffron.')">Zereshk Pulao</button> 
+    <br>        
+    <img src="zereshk.jpeg" alt="Zereshk Pulao" width="400">
+    <br>
+    <p>To watch the full cooking video, click the link below.</p>
+    <a href="https://m.youtube.com/@Bia_Ashpazi">link</a>
+    <div>
+    <!-- <p>Zehler:<span id="zahl">0</span></p>-->   
+    <!--<button id="Zahlbutton">Zehler Button</button>-->    
+    </div>
+    <p>besucherzahl = <span id="besucherZehler"></span></p>
+    <p>Randomrzept = <span id="Randomrzept"></span></p>
+    <div id="footer"></div>
+    <script src="components/header.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script src="API.js"></script>
+    
+</body>
+</html>
